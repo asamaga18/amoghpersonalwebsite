@@ -1,3 +1,12 @@
+/*Color Pallete*/
+:root{
+    --dark-green: #013220ff;
+    --sage: #cbc9adff;
+    --mountbatten-pink: #a288a6ff;
+    --rose-quartz: #bb9bb0ff;
+    --rose-ebony: #503d3fff;
+}
+
 /* Reset default browser styles */
 html, body {
     margin: 0;
@@ -7,7 +16,7 @@ html, body {
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #acacac; /* Change this to your desired background color */
+    background-color: var(--dark-green); /* Change this to your desired background color */
 }
 
 .container {
